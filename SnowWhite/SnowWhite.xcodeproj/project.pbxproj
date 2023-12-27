@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		759723402B3C6062000D8600 /* SnowWhiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597233F2B3C6062000D8600 /* SnowWhiteApp.swift */; };
+		759723422B3C6062000D8600 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759723412B3C6062000D8600 /* ContentView.swift */; };
+		759723442B3C6066000D8600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759723432B3C6066000D8600 /* Assets.xcassets */; };
+		759723472B3C6066000D8600 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759723462B3C6066000D8600 /* Preview Assets.xcassets */; };
+		759723512B3C6066000D8600 /* SnowWhiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759723502B3C6066000D8600 /* SnowWhiteTests.swift */; };
+		7597235B2B3C6066000D8600 /* SnowWhiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597235A2B3C6066000D8600 /* SnowWhiteUITests.swift */; };
+		7597235D2B3C6066000D8600 /* SnowWhiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597235C2B3C6066000D8600 /* SnowWhiteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7597234D2B3C6066000D8600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759723342B3C6062000D8600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7597233B2B3C6062000D8600;
+			remoteInfo = SnowWhite;
+		};
+		759723572B3C6066000D8600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759723342B3C6062000D8600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7597233B2B3C6062000D8600;
+			remoteInfo = SnowWhite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7597233C2B3C6062000D8600 /* SnowWhite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowWhite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7597233F2B3C6062000D8600 /* SnowWhiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowWhiteApp.swift; sourceTree = "<group>"; };
+		759723412B3C6062000D8600 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		759723432B3C6066000D8600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		759723462B3C6066000D8600 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7597234C2B3C6066000D8600 /* SnowWhiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowWhiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759723502B3C6066000D8600 /* SnowWhiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowWhiteTests.swift; sourceTree = "<group>"; };
+		759723562B3C6066000D8600 /* SnowWhiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowWhiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7597235A2B3C6066000D8600 /* SnowWhiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowWhiteUITests.swift; sourceTree = "<group>"; };
+		7597235C2B3C6066000D8600 /* SnowWhiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowWhiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		759723392B3C6062000D8600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759723492B3C6066000D8600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759723532B3C6066000D8600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		759723332B3C6062000D8600 = {
+			isa = PBXGroup;
+			children = (
+				7597233E2B3C6062000D8600 /* SnowWhite */,
+				7597234F2B3C6066000D8600 /* SnowWhiteTests */,
+				759723592B3C6066000D8600 /* SnowWhiteUITests */,
+				7597233D2B3C6062000D8600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7597233D2B3C6062000D8600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7597233C2B3C6062000D8600 /* SnowWhite.app */,
+				7597234C2B3C6066000D8600 /* SnowWhiteTests.xctest */,
+				759723562B3C6066000D8600 /* SnowWhiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7597233E2B3C6062000D8600 /* SnowWhite */ = {
+			isa = PBXGroup;
+			children = (
+				7597233F2B3C6062000D8600 /* SnowWhiteApp.swift */,
+				759723412B3C6062000D8600 /* ContentView.swift */,
+				759723432B3C6066000D8600 /* Assets.xcassets */,
+				759723452B3C6066000D8600 /* Preview Content */,
+			);
+			path = SnowWhite;
+			sourceTree = "<group>";
+		};
+		759723452B3C6066000D8600 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				759723462B3C6066000D8600 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7597234F2B3C6066000D8600 /* SnowWhiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				759723502B3C6066000D8600 /* SnowWhiteTests.swift */,
+			);
+			path = SnowWhiteTests;
+			sourceTree = "<group>";
+		};
+		759723592B3C6066000D8600 /* SnowWhiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7597235A2B3C6066000D8600 /* SnowWhiteUITests.swift */,
+				7597235C2B3C6066000D8600 /* SnowWhiteUITestsLaunchTests.swift */,
+			);
+			path = SnowWhiteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7597233B2B3C6062000D8600 /* SnowWhite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759723602B3C6066000D8600 /* Build configuration list for PBXNativeTarget "SnowWhite" */;
+			buildPhases = (
+				759723382B3C6062000D8600 /* Sources */,
+				759723392B3C6062000D8600 /* Frameworks */,
+				7597233A2B3C6062000D8600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowWhite;
+			productName = SnowWhite;
+			productReference = 7597233C2B3C6062000D8600 /* SnowWhite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7597234B2B3C6066000D8600 /* SnowWhiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759723632B3C6066000D8600 /* Build configuration list for PBXNativeTarget "SnowWhiteTests" */;
+			buildPhases = (
+				759723482B3C6066000D8600 /* Sources */,
+				759723492B3C6066000D8600 /* Frameworks */,
+				7597234A2B3C6066000D8600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7597234E2B3C6066000D8600 /* PBXTargetDependency */,
+			);
+			name = SnowWhiteTests;
+			productName = SnowWhiteTests;
+			productReference = 7597234C2B3C6066000D8600 /* SnowWhiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		759723552B3C6066000D8600 /* SnowWhiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759723662B3C6066000D8600 /* Build configuration list for PBXNativeTarget "SnowWhiteUITests" */;
+			buildPhases = (
+				759723522B3C6066000D8600 /* Sources */,
+				759723532B3C6066000D8600 /* Frameworks */,
+				759723542B3C6066000D8600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759723582B3C6066000D8600 /* PBXTargetDependency */,
+			);
+			name = SnowWhiteUITests;
+			productName = SnowWhiteUITests;
+			productReference = 759723562B3C6066000D8600 /* SnowWhiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		759723342B3C6062000D8600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7597233B2B3C6062000D8600 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					7597234B2B3C6066000D8600 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 7597233B2B3C6062000D8600;
+					};
+					759723552B3C6066000D8600 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 7597233B2B3C6062000D8600;
+					};
+				};
+			};
+			buildConfigurationList = 759723372B3C6062000D8600 /* Build configuration list for PBXProject "SnowWhite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 759723332B3C6062000D8600;
+			productRefGroup = 7597233D2B3C6062000D8600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7597233B2B3C6062000D8600 /* SnowWhite */,
+				7597234B2B3C6066000D8600 /* SnowWhiteTests */,
+				759723552B3C6066000D8600 /* SnowWhiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7597233A2B3C6062000D8600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759723472B3C6066000D8600 /* Preview Assets.xcassets in Resources */,
+				759723442B3C6066000D8600 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7597234A2B3C6066000D8600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759723542B3C6066000D8600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759723382B3C6062000D8600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759723422B3C6062000D8600 /* ContentView.swift in Sources */,
+				759723402B3C6062000D8600 /* SnowWhiteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759723482B3C6066000D8600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759723512B3C6066000D8600 /* SnowWhiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759723522B3C6066000D8600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7597235B2B3C6066000D8600 /* SnowWhiteUITests.swift in Sources */,
+				7597235D2B3C6066000D8600 /* SnowWhiteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7597234E2B3C6066000D8600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7597233B2B3C6062000D8600 /* SnowWhite */;
+			targetProxy = 7597234D2B3C6066000D8600 /* PBXContainerItemProxy */;
+		};
+		759723582B3C6066000D8600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7597233B2B3C6062000D8600 /* SnowWhite */;
+			targetProxy = 759723572B3C6066000D8600 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7597235E2B3C6066000D8600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7597235F2B3C6066000D8600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		759723612B3C6066000D8600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnowWhite/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swiftproj.SnowWhite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		759723622B3C6066000D8600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnowWhite/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swiftproj.SnowWhite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		759723642B3C6066000D8600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swiftproj.SnowWhiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowWhite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnowWhite";
+			};
+			name = Debug;
+		};
+		759723652B3C6066000D8600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swiftproj.SnowWhiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowWhite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnowWhite";
+			};
+			name = Release;
+		};
+		759723672B3C6066000D8600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swiftproj.SnowWhiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnowWhite;
+			};
+			name = Debug;
+		};
+		759723682B3C6066000D8600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swiftproj.SnowWhiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnowWhite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		759723372B3C6062000D8600 /* Build configuration list for PBXProject "SnowWhite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7597235E2B3C6066000D8600 /* Debug */,
+				7597235F2B3C6066000D8600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759723602B3C6066000D8600 /* Build configuration list for PBXNativeTarget "SnowWhite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759723612B3C6066000D8600 /* Debug */,
+				759723622B3C6066000D8600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759723632B3C6066000D8600 /* Build configuration list for PBXNativeTarget "SnowWhiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759723642B3C6066000D8600 /* Debug */,
+				759723652B3C6066000D8600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759723662B3C6066000D8600 /* Build configuration list for PBXNativeTarget "SnowWhiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759723672B3C6066000D8600 /* Debug */,
+				759723682B3C6066000D8600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 759723342B3C6062000D8600 /* Project object */;
+}
